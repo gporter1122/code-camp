@@ -1,0 +1,20 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-wrapper {
+    width: 1000px;
+  }
+  
+  .content-wrapper > #chef {
+    margin: 25px 40px 30px 0px;
+    width: 350px;
+    float: left;
+    border: 1px solid #cea135;
+  }
+  
+  .content-wrapper > p {
+    line-height: 30px;
+    letter-spacing: 1px;
+  }

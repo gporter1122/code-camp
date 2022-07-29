@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    height:60px ;
+    display: flex;
+    color: aliceblue;
+    font-size: 0.5em;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.nav-bar > .logo{
+    display: flex;
+    height: 30px;
+    
+    padding: 15px 0px 15px 15px;  
+}
+
+.explore-wrapper{
+    display:flex; 
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.nav-bar-text-wrapper{
+    display:flex; 
+    flex-direction: row;
+    gap: 10px; 
+   align-items: center;
+}
+.btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav-bar > .explore-wrapper > .nav-bar-text{
+margin: 10px;
+}
+#drop-down{
+   align-items: center;
+    padding: 0px;
+    display: flex;
+    font-size: 1.8em;
+    color:lightgray;
+}
+#drop-down i {
+    margin-left: 10px;
+}
+.nav-bar > .explore-wrapper> .explore{
+    font-size: 0.7em;
+    display: flex;
+    color: yellow;
+    flex-direction: column;
+}
+.nav-bar > .explore-wrapper> .nav-bar-text-wrapper> .nav-bar-text{
+    flex-direction:row;
+    font-size: 2.5em;
+}
+.explore-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar > .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-bar > .btn-wrapper > .button{
+    background-color: gray;
+  
+    
+   padding: 5px 20px;  
+   margin: 6px;
+   font-size: 4em;
+   border-radius: 3px;
+  
+}
+.button i.green {
+    color: rgb(71, 207, 115);
+}
+.nav-bar > .search-btn  {
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
